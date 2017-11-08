@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-voca-exit" version="0.0.1">
+    <name>VocaExit</name>
+    <description>voca app exit</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,vocaexit</keywords>
+
+    <engines>
+	<engine name="cordova" version=">=3.2.0" />
+    </engines>
+
+    <js-module src="www/vocaExit.js" name="exitApp">
+    	<clobbers target="window.navigator.app.exitApp" />
+    </js-module>
+
+    <!-- ios -->
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="VocaExit">
+                <param name="ios-package" value="CDVVocaExit" />
+	              <param name="onload" value="true" />
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/CDVVocaExit.h" />
+        <source-file src="src/ios/CDVVocaExit.m" />
+    </platform>
+
+    <!-- android -->
+
+</plugin>

@@ -1,0 +1,33 @@
+{
+  "name": "cordova-plugin-voca-exit",
+  "version": "0.0.1",
+  "description": "voca app exit",
+  "cordova": {
+    "id": "cordova-plugin-voca-exit",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crossee/cordova-plugin-voca-exit.git"
+  },
+  "keywords": [
+    "cordova",
+    "vocaexit",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.2.0"
+    }
+  ],
+  "author": "Apache Software Foundation",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}
