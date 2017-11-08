@@ -11,7 +11,7 @@
     </engines>
 
     <js-module src="www/vocaExit.js" name="exitApp">
-    	<clobbers target="window.navigator.app.exitApp" />
+    	<clobbers target="navigator.app.exitApp" />
     </js-module>
 
     <!-- ios -->
